@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Ajax at work</title>
+        <script language="javascript" src="ajax_dummies.js">
+        </script>
+    </head>
+    <body>
+        <H1>Fetching data with Ajax</H1>
+        <form>
+            <input type = "button" value = "Display Message" onclick = "javascript: getData('http://localhost/data.txt', 'targetDiv')">
+        </form>
+        <div id="targetDiv">
+            <p>
+                The fetched data will go here.
+            </p>
+        </div>
+    </body>
+</html>

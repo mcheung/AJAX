@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<script type="text/javascript" src="responseHeaders.js" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Response Headers</title>
+</head>
+<body onload="document.forms[0].url.value = urlFragment">
+	
+	<form action="javascript:void%200">
+		<p>Enter here:
+			<input type="text" name="url" size="20" onblur="getAllHeaders(this.value)">
+			<span>::press tab to finish</span>
+		</p>
+		<div id="msgDisplay"></div>
+	</form>
+
+</body>
+</html>
